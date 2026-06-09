@@ -1,0 +1,17 @@
+{
+  "name": "chaiaurbackened",
+  "version": "1.0.0",
+  "description": "a backened at chai aur code channel - youtube",
+  "keywords": [
+    "javascript",
+    "backened",
+    "chai"
+  ],
+  "license": "ISC",
+  "author": "Himanshu Ghosh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
