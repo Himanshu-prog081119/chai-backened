@@ -1,17 +1,20 @@
 {
   "name": "chaiaurbackened",
   "version": "1.0.0",
-  "description": "a backened at chai aur code channel - youtube",
+  "description": "a backend at chai aur code channel - youtube",
+  "type": "module",
   "keywords": [
     "javascript",
-    "backened",
+    "backend",
     "chai"
   ],
   "license": "ISC",
   "author": "Himanshu Ghosh",
-  "type": "commonjs",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
